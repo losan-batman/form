@@ -1,4 +1,4 @@
-.intro-before{
+ .intro-before{
   position: fixed;
   top: 0;
   left: 0;
@@ -36,4 +36,34 @@
     
     
   }
+
+
+
+.intro-after{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+.user-info {
+  width: 100%;
+  max-width: 500px; /* Adjust as needed */
+  padding: 20px;
+  border: 2px solid #4a90e2;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.intro-after-content{
+   margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  
+
+}
+
+
 
