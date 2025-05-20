@@ -1,3 +1,9 @@
+ *{
+  margin: 0%;
+  padding: 0%;
+ }
+ 
+ 
  .intro-before{
   position: fixed;
   top: 0;
@@ -45,6 +51,11 @@
   align-items: center;
   padding: 20px;
   box-sizing: border-box;
+  /* need to keep a suitable color */
+background: linear-gradient(to right, rgba(72, 12, 168, 1), rgba(72, 12, 168, 0));
+
+  height: 100%;
+  width: 100%;
 
 }
 
@@ -52,9 +63,11 @@
   width: 100%;
   max-width: 500px; /* Adjust as needed */
   padding: 20px;
-  border: 2px solid #4a90e2;
+  border: 4px solid #4a90e2;
   border-radius: 8px;
-  background-color: #f9f9f9;
+  background-color: #bb8404;
+  
+  
 }
 
 .intro-after-content{
@@ -62,8 +75,26 @@
   display: flex;
   align-items: center;
   
+  
 
 }
 
+/* change color to the outline text */
+.user-lengend{
+  color:aliceblue;
 
+}
+
+.intro-after-content-btn{
+  position: absolute;
+  left: 50%;
+ bottom: 30%;
+  border: 2px solid black;
+  border-radius: 6px;
+
+ 
+  
+ 
+  
+}
 
